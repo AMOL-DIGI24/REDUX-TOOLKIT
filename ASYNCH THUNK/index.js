@@ -10,7 +10,5 @@ const unubscribe = store.subscribe(() => {
     console.log('Updated State', store.getState());
 })
 
-
-
 store.dispatch(fetchUsers());
 
